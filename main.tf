@@ -1,9 +1,5 @@
 provider "azurerm" {
   features {}
-}
-
-provider "azurerm" {
-  features {}
 
   alias = "labs"
   subscription_id = var.lab_sub_id
